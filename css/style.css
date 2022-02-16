@@ -473,6 +473,16 @@ a:focus {
     border: none;
 }
 
+.card {
+    margin: 0 auto;
+    /* Added */
+    float: none;
+    /* Added */
+    margin-bottom: 80px;
+    /* Added */
+    width: 30rem;
+}
+
 .service_section .btn-box a:hover {
     background-color: #1a403d;
 }

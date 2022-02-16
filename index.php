@@ -92,7 +92,8 @@
                                 <div class="col-md-6 ">
                                     <div class="detail-box">
                                         <h3>
-                                            <label class="colored">Hello!</label><br> My name is <label for="" class="colored">Ayoub</label><br> and I'm a<br> 
+                                            <label class="colored">Hello!</label><br> My name is <label for=""
+                                                class="colored">Ayoub</label><br> and I'm a<br>
                                             <label for="" class="colored">Full-Stack Web Developer.</label>
                                         </h3>
                                         <p>
@@ -131,29 +132,29 @@
             <div class="container ">
                 <div class="heading_container heading_center">
                     <h2>
-                    Tech & <span>tools</span>
+                        Tech & <span>tools</span>
                     </h2>
 
                 </div>
-                    <div class="container">
-                <div class="techcontainer">
-                    <img src="images/laravel.svg" alt="laravel" title="laravel" >
-                    <img src="images/javascript.svg" alt="javascript" title="javascript">
-                    <img src="images/vuejs.svg" alt="vue.js" title="vue.js">
-                    <img src="images/php.svg" alt="php" title="php">
-                    <img src="images/html.svg" alt="html" title="html">
-                    <img src="images/css.svg" alt="css" title="css">
-                    <img src="images/bootstrap.svg" alt="bootstrap" title="bootstrap">
-                    <img src="images/nextjs.svg" alt="nextjs" title="nextjs">
-                    <img src="images/heroku.svg" alt="heroku" title="heroku">
-                    <img src="images/github.svg" alt="github" title="github">
-                    <img src="images/mongodb.svg" alt="mongodb" title="mongodb">
-                    <img src="images/mysql.svg" alt="mysql" title="mysql">
-                    <img src="images/terminal.svg" alt="unix" title="unix">
-                    <img src="images/slack.svg" alt="slack" title="slack">
+                <div class="container">
+                    <div class="techcontainer">
+                        <img src="images/laravel.svg" alt="laravel" title="laravel">
+                        <img src="images/javascript.svg" alt="javascript" title="javascript">
+                        <img src="images/vuejs.svg" alt="vue.js" title="vue.js">
+                        <img src="images/php.svg" alt="php" title="php">
+                        <img src="images/html.svg" alt="html" title="html">
+                        <img src="images/css.svg" alt="css" title="css">
+                        <img src="images/bootstrap.svg" alt="bootstrap" title="bootstrap">
+                        <img src="images/nextjs.svg" alt="nextjs" title="nextjs">
+                        <img src="images/heroku.svg" alt="heroku" title="heroku">
+                        <img src="images/github.svg" alt="github" title="github">
+                        <img src="images/mongodb.svg" alt="mongodb" title="mongodb">
+                        <img src="images/mysql.svg" alt="mysql" title="mysql">
+                        <img src="images/terminal.svg" alt="unix" title="unix">
+                        <img src="images/slack.svg" alt="slack" title="slack">
+                    </div>
                 </div>
-                </div>
-               
+
             </div>
         </div>
     </section>
@@ -200,69 +201,80 @@
     <section class="portfolio_section layout_padding">
         <div class="container">
             <div class="heading_container heading_center">
-                <h2>
-                    Our <span>Portfolio</span>
+                <h2 style="margin-bottom:50px">
+                    <span>Projects</span>
                 </h2>
-                <p>
-                    There are many variations of passages of Lorem Ipsum available, but the majority
-                </p>
             </div>
 
             <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="img-box">
-                        <img src="images/p1.jpg" alt="">
-                        <a href="">
-                            <i class="fa fa-share-alt" aria-hidden="true"></i>
-                        </a>
+                <div class="col-md-6 ">
+
+                    <div class="card">
+                        <img class="card-img-top" src="images/landing_page.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="img-box">
-                        <img src="images/p2.jpg" alt="">
-                        <a href="">
-                            <i class="fa fa-share-alt" aria-hidden="true"></i>
-                        </a>
+                <div class="col-md-6 ">
+
+                    <div class="card">
+                        <img class="card-img-top" src="images/landing_page2.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="img-box">
-                        <img src="images/p3.jpg" alt="">
-                        <a href="">
-                            <i class="fa fa-share-alt" aria-hidden="true"></i>
-                        </a>
+                <div class="col-md-6 ">
+
+                    <div class="card">
+                        <img class="card-img-top" src="images/landing_page3.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="img-box">
-                        <img src="images/p4.jpg" alt="">
-                        <a href="">
-                            <i class="fa fa-share-alt" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="img-box">
-                        <img src="images/p5.jpg" alt="">
-                        <a href="">
-                            <i class="fa fa-share-alt" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="img-box">
-                        <img src="images/p6.jpg" alt="">
-                        <a href="">
-                            <i class="fa fa-share-alt" aria-hidden="true"></i>
-                        </a>
+                <div class="col-md-6 ">
+
+                    <div class="card">
+                        <img class="card-img-top" src="images/landing_page4.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="btn-box">
-                <a href="">
-                    View More
-                </a>
-            </div>
+        </div>
+
+
         </div>
     </section>
 
@@ -300,7 +312,7 @@
                         </form>
                     </div>
                 </div>
-               
+
             </div>
         </div>
     </section>
