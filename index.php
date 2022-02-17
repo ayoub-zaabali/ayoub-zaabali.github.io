@@ -26,7 +26,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
     <!-- font awesome style -->
-    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- aos animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Custom styles for this template -->
     <link href="css/style.css?v=<?php echo rand(1,100)?>" rel="stylesheet" />
@@ -92,9 +96,12 @@
                                 <div class="col-md-6 ">
                                     <div class="detail-box">
                                         <h3>
-                                            <label class="colored">Hello!</label><br> My name is <label for=""
-                                                class="colored">Ayoub</label><br> and I'm a<br>
-                                            <label for="" class="colored">Full-Stack Web Developer.</label>
+                                            <label class="colored" data-aos="fade-right"
+                                                data-aos-delay="100">Hello!</label><br> My name is <label for=""
+                                                class="colored" data-aos="fade-right"
+                                                data-aos-delay="100">Ayoub</label><br> and I'm a<br>
+                                            <label for="" class="colored" data-aos="fade-right" data-aos-delay="100"
+                                                data-aos-anchor-placement="top-bottom">Full-Stack Web Developer.</label>
                                         </h3>
                                         <p>
                                             I'm very captivated by everything that has to do with front-end development
@@ -136,7 +143,7 @@
                     </h2>
 
                 </div>
-                <div class="container">
+                <div class="container" data-aos="zoom-in">
                     <div class="techcontainer">
                         <img src="images/laravel.svg" alt="laravel" title="laravel">
                         <img src="images/javascript.svg" alt="javascript" title="javascript">
@@ -209,65 +216,59 @@
             <div class="row">
                 <div class="col-md-6 ">
 
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in">
                         <img class="card-img-top" src="images/landing_page.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
+                            <h5 class="card-title">Udash -Docoment Sharing Platform</h5>
+                            <p class="card-text">laravel application for a university admin to connect students and professors
+                                and simplify documents sharings.</p>
                         </div>
                         <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                            <a href="https://udash.herokuapp.com/" class="card-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/ayoubzaabali/Udash" class="card-link"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 ">
 
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in">
                         <img class="card-img-top" src="images/landing_page2.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
+                            <h5 class="card-title">DM- Dentiste mareketing website </h5>
+                            <p class="card-text">A simple front-end ready to use template for doctors to get more patients.</p>
                         </div>
                         <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                            <a href="https://dentiste-marketing.herokuapp.com/" class="card-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/ayoubzaabali/dentiste" class="card-link"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 ">
 
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in">
                         <img class="card-img-top" src="images/landing_page3.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
+                        <h5 class="card-title">devstack- agency website in webflow </h5>
+                            <p class="card-text">web developement agency website to market their services developed by webflow.</p>
                         </div>
                         <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                            <a href="https://devstack-ma.webflow.io/" class="card-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 ">
 
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in">
                         <img class="card-img-top" src="images/landing_page4.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">CC- University website with awesome design </h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of
                                 the card's content.</p>
                         </div>
                         <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                            <a href="#" class="card-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" class="card-link"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -317,6 +318,13 @@
         </div>
     </section>
     <!-- end contact section -->
+
+    <!-- <section id="wave">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+    </section> -->
 
     <!-- footer section -->
     <footer class="footer_section">
@@ -440,6 +448,33 @@
     </script>
     <!-- End Google Map -->
 
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    // below listed default settings
+    AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 1000, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-center', // defines which position of the element regarding to window should trigger the animation
+
+    });
+    </script>
 </body>
 
 </html>
