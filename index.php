@@ -66,19 +66,19 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav  ">
                             <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html"> About</a>
+                                <a class="nav-link" href="#about"> About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="service.html">Services</a>
+                                <a class="nav-link" href="#services">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Us</a>
+                                <a class="nav-link" href="#contact">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -86,6 +86,8 @@
             </div>
         </header>
         <!-- end header section -->
+
+
         <!-- slider section -->
         <section class="slider_section ">
             <div id="customCarousel1" class="carousel slide" data-ride="carousel">
@@ -134,7 +136,7 @@
 
     <!-- service section -->
 
-    <section class="service_section layout_padding-bottom">
+    <section class="service_section layout_padding-bottom" id="services">
         <div class="service_container">
             <div class="container ">
                 <div class="heading_container heading_center">
@@ -169,9 +171,97 @@
     <!-- end service section -->
 
 
+    <!-- portfolio section -->
+
+    <section class="portfolio_section layout_padding" id="portfolio">
+        <div class="container">
+            <div class="heading_container heading_center">
+                <h2 style="margin-bottom:50px">
+                    <span>Projects</span>
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 ">
+
+                    <div class="card" data-aos="zoom-in">
+                        <img class="card-img-top" src="images/landing_page.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Udash -Docoment Sharing Platform</h5>
+                            <p class="card-text">laravel application for a university admin to connect students and
+                                professors
+                                and simplify documents sharings.</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="https://udash.herokuapp.com/" target="_blank" class="card-link"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/ayoubzaabali/Udash" target="_blank" class="card-link"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+
+                    <div class="card" data-aos="zoom-in">
+                        <img class="card-img-top" src="images/landing_page2.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">DM- Dentiste mareketing website </h5>
+                            <p class="card-text">A simple front-end ready to use template for doctors to get more
+                                patients.</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="https://dentiste-marketing.herokuapp.com/" target="_blank" class="card-link"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/ayoubzaabali/dentiste" target="_blank" class="card-link"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+
+                    <div class="card" data-aos="zoom-in">
+                        <img class="card-img-top" src="images/landing_page3.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">devstack- agency website in webflow </h5>
+                            <p class="card-text">web developement agency website to market their services developed by
+                                webflow.</p>
+                        </div>
+                        <div class="card-body">
+                            <a target="_blank" href="https://devstack-ma.webflow.io/" class="card-link"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+
+                    <div class="card" data-aos="zoom-in">
+                        <img class="card-img-top" src="images/landing_page4.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">CC- University website with awesome design </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" target="_blank" class="card-link"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" target="_blank" class="card-link"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+    </section>
+
+    <!-- end portfolio section -->
+
+
     <!-- about section -->
 
-    <section class="about_section layout_padding">
+    <section class="about_section layout_padding" data-aos="fade-up" id="about">
         <div class="container  ">
             <div class="row">
                 <div class="col-md-6 ">
@@ -192,7 +282,7 @@
                             even slightly believable. If you are going to use a passage of Lorem Ipsum,
                             you need to be sure there isn't anything embarrassing hidden in the middle of text. All
                         </p>
-                        <a href="">
+                        <a target="_blank" href="https://github.com/ayoubzaabali">
                             Visit Github
                         </a>
                     </div>
@@ -203,88 +293,10 @@
 
     <!-- end about section -->
 
-    <!-- portfolio section -->
-
-    <section class="portfolio_section layout_padding">
-        <div class="container">
-            <div class="heading_container heading_center">
-                <h2 style="margin-bottom:50px">
-                    <span>Projects</span>
-                </h2>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6 ">
-
-                    <div class="card" data-aos="zoom-in">
-                        <img class="card-img-top" src="images/landing_page.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Udash -Docoment Sharing Platform</h5>
-                            <p class="card-text">laravel application for a university admin to connect students and professors
-                                and simplify documents sharings.</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="https://udash.herokuapp.com/" class="card-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="https://github.com/ayoubzaabali/Udash" class="card-link"><i class="fa-brands fa-github"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 ">
-
-                    <div class="card" data-aos="zoom-in">
-                        <img class="card-img-top" src="images/landing_page2.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">DM- Dentiste mareketing website </h5>
-                            <p class="card-text">A simple front-end ready to use template for doctors to get more patients.</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="https://dentiste-marketing.herokuapp.com/" class="card-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="https://github.com/ayoubzaabali/dentiste" class="card-link"><i class="fa-brands fa-github"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 ">
-
-                    <div class="card" data-aos="zoom-in">
-                        <img class="card-img-top" src="images/landing_page3.png" alt="Card image cap">
-                        <div class="card-body">
-                        <h5 class="card-title">devstack- agency website in webflow </h5>
-                            <p class="card-text">web developement agency website to market their services developed by webflow.</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="https://devstack-ma.webflow.io/" class="card-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 ">
-
-                    <div class="card" data-aos="zoom-in">
-                        <img class="card-img-top" src="images/landing_page4.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">CC- University website with awesome design </h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="#" class="card-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="#" class="card-link"><i class="fa-brands fa-github"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        </div>
-    </section>
-
-    <!-- end portfolio section -->
-
     <!-- contact section -->
-    <section class="contact_section layout_padding">
+    <section class="contact_section layout_padding" data-aos="fade-down" id="contact">
         <div class="container">
-            <div class="heading_container">
+            <div class="heading_container" style="align-items: safe center;">
                 <h2>
                     Contact <span>Us</span>
                 </h2>
@@ -292,25 +304,23 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="form_container contact-form">
-                        <form action="">
+                        <form action="" name="contact-form">
                             <div>
-                                <input type="text" placeholder="Your Name" />
+                                <input id="name" type="text" placeholder="Your Name" />
                             </div>
                             <div>
-                                <input type="text" placeholder="Phone Number" />
+                                <input id="mail "type="email" placeholder="Email" />
                             </div>
                             <div>
-                                <input type="email" placeholder="Email" />
+                                <input id="message" type="text" class="message-box" placeholder="Message" />
                             </div>
-                            <div>
-                                <input type="text" class="message-box" placeholder="Message" />
-                            </div>
-                            <div class="btn_box">
-                                <button>
+                            <div class="btn_box text-center">
+                                <button type="submit" >
                                     SEND
                                 </button>
                             </div>
                         </form>
+                        <div id="response"></div>
                     </div>
                 </div>
 
@@ -342,27 +352,19 @@
                             <a href="">
                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                                 <span>
-                                    Location
+                                    Morocco
                                 </span>
                             </a>
-                            <a href="">
-                                <i class="fa fa-phone" aria-hidden="true"></i>
-                                <span>
-                                    Call +01 1234567890
-                                </span>
-                            </a>
+
                             <a href="">
                                 <i class="fa fa-envelope" aria-hidden="true"></i>
                                 <span>
-                                    demo@gmail.com
+                                    ayoub.zaabali@gmail.com
                                 </span>
                             </a>
                         </div>
                     </div>
                     <div class="footer_social">
-                        <a href="">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
                         <a href="">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
@@ -380,8 +382,10 @@
                             About
                         </h4>
                         <p>
-                            Necessary, making this the first true generator on the Internet. It uses a dictionary of
-                            over 200 Latin words, combined with a handful
+                            I am a PHP Laravel developer with a never-ending passion for learning. My whole interest is
+                            to build from custom CRMs to SaaS products and MVPs.
+
+
                         </p>
                     </div>
                 </div>
@@ -391,19 +395,19 @@
                             Links
                         </h4>
                         <div class="footer_links">
-                            <a class="active" href="index.html">
+                            <a class="active" href="/">
                                 Home
                             </a>
-                            <a class="" href="about.html">
+                            <a class="" href="#about">
                                 About
                             </a>
-                            <a class="" href="service.html">
+                            <a class="" href="#services">
                                 Services
                             </a>
-                            <a class="" href="portfolio.html">
+                            <a class="" href="#portfolio">
                                 Portfolio
                             </a>
-                            <a class="" href="contact.html">
+                            <a class="" href="#contact">
                                 Contact Us
                             </a>
                         </div>
@@ -423,8 +427,8 @@
             </div>
             <div class="footer-info">
                 <p>
-                    &copy; <span id="displayYear"></span> All Rights Reserved By
-                    <a href="https://html.design/">Free Html Templates</a>
+                    &copy; <span id="displayYear"></span> Ayoub Zaabali
+
                 </p>
             </div>
         </div>
@@ -476,5 +480,5 @@
     });
     </script>
 </body>
-
+<script src="js/post.js"></script>
 </html>
