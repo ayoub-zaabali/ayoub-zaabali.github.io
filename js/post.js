@@ -27,11 +27,13 @@ function postData(formsubmission) {
     http.onreadystatechange = function() {
         if (http.readyState == 4 && http.status == 200) {
             if (http.responseText) {
-                document.getElementById("response").innerHTML = "message sent";
+                document.getElementById("response").innerHTML = "<label class='ok'>Message Sent<i class='fa-solid fa-circle-check'></i></label>";
             } else {
-                document.getElementById("response").innerHTML = "An unknown error occurred while sending the email message";
+                document.getElementById("response").innerHTML = "<label class='error' >An unknown error occurred while sending the email message<i class='fa-solid fa-circle-exclamation'></i></label>";
             }
         }
     }
     http.send(params);
+    document.getElementById("response").innerHTML = "<img src='images/Rolling.svg'>";
+
 }

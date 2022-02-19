@@ -10,6 +10,22 @@ html {
     scroll-behavior: smooth;
 }
 
+#response img {
+    height: 100px;
+}
+
+#response label {
+    font-size: 1.2em;
+}
+
+#response label.ok {
+    color: green;
+}
+
+#response label.error {
+    color: red;
+}
+
 .techcontainer {
     height: 7vh;
     display: grid;
