@@ -6,6 +6,26 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+#response img {
+    height: 100px;
+}
+
+#response label {
+    font-size: 1.2em;
+}
+
+#response label.ok {
+    color: green;
+}
+
+#response label.error {
+    color: red;
+}
+
 .techcontainer {
     height: 7vh;
     display: grid;
@@ -570,7 +590,6 @@ a:focus {
     background-color: #144d53;
     color: #ffffff;
     border-radius: 750px;
-    margin-top: 50vh;
 }
 
 .about_section .row {
@@ -619,6 +638,10 @@ a:focus {
 
 .portfolio_section .heading_container {
     margin-bottom: 40px;
+}
+
+.portfolio_section {
+    margin-top: 50vh;
 }
 
 .portfolio_section .col-md-4 {
@@ -819,10 +842,11 @@ a:focus {
 
 .contact_section {
     position: relative;
+    padding: 100px 0;
 }
 
 .contact_section .heading_container {
-    margin-bottom: 25px;
+    margin-bottom: 80px;
 }
 
 .contact_section .heading_container h2 {
@@ -833,7 +857,7 @@ a:focus {
     width: 100%;
     border: none;
     height: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     padding-left: 20px;
     outline: none;
     color: #101010;
