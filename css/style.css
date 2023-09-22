@@ -13,6 +13,15 @@ html {
   .mobile-sc {
     width: 23rem !important;
   }
+  .hideimob {
+    display: none !important;
+  }
+  .techcontainer {
+    grid-template-columns: 1fr 1fr 1fr !important;
+  }
+  .techcontainer img {
+    width: 9vh !important;
+  }
 }
 @media only screen and (max-width: 380px) {
   .mobile-sc {
